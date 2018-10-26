@@ -1,0 +1,10 @@
+.container {
+    margin-top:5%;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 160px;
+}
+.card {
+    cursor: pointer;
+}

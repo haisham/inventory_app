@@ -1,0 +1,45 @@
+Installed PHP 7
+Installed Serverversion: 8.0.12 - MySQL Community Server 
+Installed Node, Node CLI
+Installed latest Laravel FW via composer
+Generated application key
+Added db config in config/database.php
+Created a new migration : inventories
+Create a new model: Inventory
+Defined new routes in routes/web.php
+Ready to create API
+
+Created database
+Created DB migrations
+Ran migrations
+Created a new controller: InventoryController Created Inventory model
+Defined routes in routes/web.php
+Disabled CSRF for route: /inventory , since we will be calling it externally, in production we can introduce tokens
+Created functions to handle API actions in InventoryController
+
+Frontend
+Installed Angular 6 via npm
+Created a new project
+Created required components via angular CLI
+Created a service to handle API calls
+Created a function to handle and process inventory values: 
+
+The math behind:
+
+Bought 200 items for 10 per unit
+Sold 50 items   (Inventory: 200 - 50 = 150  , per item price = 10) , Sold price = 50 * 10    = 500				    
+Bought 250 items (Inventory = 150 + 250 = 400)
+Sold 225 items (items from previous inventory = 150 (rate) , More needed = 75 ) Sold price = 150 * 10 + 75 * 15  = 2625, now 175 items remains now with a rate of 15 per item.
+Buy 150 items : unit price 12.5 (Inventory = 175 + 150 = 325) 
+Sell 50 items : we had 175 items from previous entry at a rate of 15 per item : 50 * 15 = 750
+
+Calculation summary : 
+50 * 10    = 500  
+150 * 10 + 75 * 15  = 2625
+50 * 15 = 750
+                                             
+500 + 2625 + 750 = 3875
+
+
+Created a new test for testing API calls using PHPUnit
+All tests passed, ready to go
