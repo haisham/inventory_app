@@ -1,7 +1,7 @@
 # FIFO inventory application
 Author Haisham Saeed <br/>
 using Angular6/PHP-Laravel <br/>
-<b><a href="http://34.219.70.13/app/" target=_blank><b>Live demo</b></a></b>
+<b><a href="http://34.219.70.13/app/" target='_blank'><b>Live demo</b></a></b>
 <br/>
 Server requirement:
 PHP 7
