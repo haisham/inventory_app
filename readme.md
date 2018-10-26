@@ -45,7 +45,6 @@ POST /inventory : Post params: action = buy|sell, date = YYYY-mm-dd quantity = n
 <h1>Frontend app structure</h1>
 App Component : app/public/frontend/src/app/app.component.ts<br/>
 Services are added in Angular app/public/frontend/src/app/services/inventory.service.ts<br/>
-/<br/>
 
 <h1>Running PHPUnit tests</h1>
 API tests are defined in backend/tests/Feature/ApiTest.php <br/>
